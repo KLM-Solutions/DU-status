@@ -53,7 +53,7 @@ def main():
     du_status_endpoint = f"{base_url}/duId/batch/withBandwidth"
 
     # Streamlit UI
-    st.title("DU Status Checker with Detailed LLM Analysis")
+    st.title("DU Status Identification")
     st.write("Enter Deployment Unit (DU) IDs manually to fetch their status and associated names.")
 
     # Input field for DU IDs
